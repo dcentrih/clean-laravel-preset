@@ -9,7 +9,7 @@ use CleanPreset\Clean;
 class CleanPresetServiceProvider extends ServiceProvider
 {
     /**
-     * Bootstrap any application services.
+     * Bootstrap services.
      *
      * @return void
      */
@@ -24,15 +24,5 @@ class CleanPresetServiceProvider extends ServiceProvider
             Clean::install();
             $command->info('Finished!');
         });
-    }
-
-    /**
-     * Register any application services.
-     *
-     * @return void
-     */
-    public function register()
-    {
-        //
     }
 }
