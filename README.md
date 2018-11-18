@@ -12,5 +12,5 @@ composer require dcentrih/clean-preset
 3. Use the preset artisan command to use the preset.
 ```
 php artisan preset clean-preset
-˙˙˙
+```
 
