@@ -1,0 +1,23 @@
+{
+    "name": "denis/clean-preset",
+    "description": "A clean preset for Laravel.",
+    "keywords": ["laravel", "laravel preset", "preset"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Centrih",
+            "email": "centrih.denis@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "CleanPreset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["CleanPreset\\CleanPresetServiceProvider"]
+        }
+    }
+}
